@@ -5,7 +5,7 @@
 
 主要步骤通过图文的形式来展示：
 
-![](http://f.picphotos.baidu.com/album/s%3D1000%3Bq%3D90/sign=5c07c8753edbb6fd215be12639149069/d439b6003af33a87e48d7c94c15c10385243b55f.jpg)
+![](https://github.com/bianyixuan/WatchTest/blob/master/Pictures/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-05-03%2010.38.40.png?raw=true)
 <center>创建一个ios App</center>
 
 ![](http://e.picphotos.baidu.com/album/s%3D1000%3Bq%3D90/sign=4b3d62861830e924cba498317c385577/bd315c6034a85edfc18481ad4e540923dd547537.jpg)
