@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CAFBE0B1CDB5752000A9342 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAFBE0A1CDB5752000A9342 /* AnimationViewController.m */; };
 		D3DB6B271CD1FD0E00A54F38 /* UserListInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB6B261CD1FD0E00A54F38 /* UserListInterfaceController.m */; };
 		D3F6C6CF1CD1E7C000CD37E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F6C6CE1CD1E7C000CD37E7 /* main.m */; };
 		D3F6C6D21CD1E7C000CD37E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F6C6D11CD1E7C000CD37E7 /* AppDelegate.m */; };
@@ -85,6 +86,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9CAFBE091CDB5752000A9342 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		9CAFBE0A1CDB5752000A9342 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		D3DB6B251CD1FD0E00A54F38 /* UserListInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListInterfaceController.h; sourceTree = "<group>"; };
 		D3DB6B261CD1FD0E00A54F38 /* UserListInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListInterfaceController.m; sourceTree = "<group>"; };
 		D3F6C6CA1CD1E7C000CD37E7 /* WatchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,6 +252,8 @@
 				D3DB6B261CD1FD0E00A54F38 /* UserListInterfaceController.m */,
 				D3F9C2251CD3382D00B624A5 /* GlanceController.h */,
 				D3F9C2261CD3382D00B624A5 /* GlanceController.m */,
+				9CAFBE091CDB5752000A9342 /* AnimationViewController.h */,
+				9CAFBE0A1CDB5752000A9342 /* AnimationViewController.m */,
 			);
 			path = "WatchApp Extension";
 			sourceTree = "<group>";
@@ -482,6 +487,7 @@
 			files = (
 				D3DB6B271CD1FD0E00A54F38 /* UserListInterfaceController.m in Sources */,
 				D3F6C71A1CD1E82C00CD37E7 /* ExtensionDelegate.m in Sources */,
+				9CAFBE0B1CDB5752000A9342 /* AnimationViewController.m in Sources */,
 				D3F6C7171CD1E82C00CD37E7 /* InterfaceController.m in Sources */,
 				D3F6C71D1CD1E82C00CD37E7 /* NotificationController.m in Sources */,
 				D3F9C1B61CD2144400B624A5 /* MainRowType.m in Sources */,

@@ -10,12 +10,25 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <label width="136" alignment="left" text="Test" textAlignment="center" id="z3E-op-MNj"/>
-                        <button width="1" alignment="left" title="NextPage" id="awC-XU-Xpx">
+                        <label width="136" height="23.5" alignment="left" text="iOS开发组" textAlignment="center" id="z3E-op-MNj"/>
+                        <button width="1" height="30.5" alignment="left" title="列表" id="awC-XU-Xpx">
                             <color key="backgroundColor" red="0.70745767010000005" green="0.32500368699999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="actionPush" destination="AgC-eL-Hgc" id="oOl-YM-J5V"/>
                                 <segue destination="9JQ-9B-1Af" kind="push" id="BTk-kC-h22"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="30.5" alignment="left" title="分页" id="XCZ-OB-X9R">
+                            <color key="backgroundColor" red="0.10481293355048434" green="0.83126324152542375" blue="0.0053576131221927019" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="4yj-J3-X4F" kind="modal" id="E2w-qF-6Ya"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="31.5" alignment="left" title="动画" id="Zox-8a-oKZ">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="1" green="0.4764345479" blue="0.1551007422" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="Wxy-ba-U0F" kind="push" id="71o-xT-y8E"/>
                             </connections>
                         </button>
                     </items>
@@ -24,7 +37,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="277" y="188"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -40,7 +53,7 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
+            <point key="canvasLocation" x="225" y="906"/>
         </scene>
         <!--User List Interface Controller-->
         <scene sceneID="YTi-8g-amC">
@@ -71,14 +84,155 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="509" y="345"/>
+            <point key="canvasLocation" x="647" y="-86"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="WgD-Zc-Pvt">
+            <objects>
+                <controller id="4yj-J3-X4F">
+                    <items>
+                        <group width="136" height="136" alignment="left" backgroundImage="bianyixuan" contentMode="scaleAspectFit" layout="vertical" id="7UH-uf-eWm">
+                            <items>
+                                <label width="136" height="40.5" alignment="left" text="卞逸轩" id="dMt-VX-ots">
+                                    <color key="textColor" red="1" green="0.44310083391107447" blue="0.0052048445402458343" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="OXt-NK-Hch" kind="relationship" relationship="nextPage" id="EPk-yt-gdC"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="647" y="211"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Q3g-OR-OsW">
+            <objects>
+                <controller id="OXt-NK-Hch">
+                    <items>
+                        <group width="136" height="136" alignment="left" backgroundImage="chenguang" contentMode="scaleAspectFit" id="hLI-8i-8hd">
+                            <items>
+                                <label width="136" height="40.5" alignment="left" text="陈光" id="UQ7-KF-As9"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="Ki7-Wl-SQY" kind="relationship" relationship="nextPage" id="5oN-Yg-t1h"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="863" y="211"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Fnf-Jc-Ni5">
+            <objects>
+                <controller id="Ki7-Wl-SQY">
+                    <items>
+                        <group width="136" height="136" alignment="left" backgroundImage="chenmindong" contentMode="scaleAspectFit" id="vRo-06-Qff">
+                            <items>
+                                <label width="74.5" height="39.5" alignment="left" text="陈民栋" id="qQT-zu-0jz">
+                                    <color key="textColor" red="0.017460066793608342" green="1" blue="0.50597650217851964" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="YJK-3g-wVj" kind="relationship" relationship="nextPage" id="JKk-ze-YMS"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1078" y="211"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Ln3-he-DDL">
+            <objects>
+                <controller id="YJK-3g-wVj">
+                    <items>
+                        <group width="136" height="136" alignment="left" backgroundImage="machao" contentMode="scaleAspectFit" id="Dg6-VL-fUg">
+                            <items>
+                                <label width="136" height="39.5" alignment="left" text="马超" id="npk-Ac-GTN"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="EPp-Zj-ihW" kind="relationship" relationship="nextPage" id="Dzz-lU-tIe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1298" y="211"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="l2m-fU-2TK">
+            <objects>
+                <controller id="EPp-Zj-ihW">
+                    <items>
+                        <group width="136" height="136" alignment="left" backgroundImage="mazhibao" contentMode="scaleAspectFit" id="osz-ij-jnf">
+                            <items>
+                                <label width="135.5" height="39.5" alignment="left" text="马志宝" id="pdS-n1-93s">
+                                    <color key="textColor" red="1" green="0.0" blue="0.41419309766186974" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="vRs-fF-CuH" kind="relationship" relationship="nextPage" id="lKc-YD-EAE"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1515" y="211"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="uCF-38-iMU">
+            <objects>
+                <controller id="vRs-fF-CuH">
+                    <items>
+                        <group width="136" height="136" alignment="left" backgroundImage="yujianxiang" contentMode="scaleAspectFit" id="9GZ-FM-6zi">
+                            <items>
+                                <label width="136" height="32.5" alignment="left" text="于建祥" id="cX3-yF-9fH">
+                                    <color key="textColor" red="1" green="0.37699774913400719" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1738" y="211"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
                 <controller id="4sK-HA-Art" customClass="NotificationController"/>
             </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="473" y="906"/>
+        </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="Udj-l5-Wl0">
+            <objects>
+                <controller id="Wxy-ba-U0F" customClass="AnimationViewController">
+                    <items>
+                        <imageView width="136" height="116" alignment="left" image="1_1" contentMode="scaleAspectFit" animationDuration="1" id="C3K-sx-Rlr"/>
+                        <group width="1" alignment="left" id="FQQ-oH-IJZ">
+                            <items>
+                                <button width="0.5" height="36.5" alignment="left" title="开始" id="FB8-T6-LFI">
+                                    <connections>
+                                        <action selector="start_animation" destination="Wxy-ba-U0F" id="kKg-cJ-rZX"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="33.5" alignment="left" title="暂停" id="U5R-zf-NT9">
+                                    <connections>
+                                        <action selector="stop_animation" destination="Wxy-ba-U0F" id="Dz7-If-R9q"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="animationImage" destination="C3K-sx-Rlr" id="8KG-Ci-vp0"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="647" y="562"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="Avf-d7-z4l">
@@ -100,7 +254,7 @@
                     </items>
                 </glanceController>
             </objects>
-            <point key="canvasLocation" x="801" y="486"/>
+            <point key="canvasLocation" x="822" y="906"/>
         </scene>
     </scenes>
 </document>
