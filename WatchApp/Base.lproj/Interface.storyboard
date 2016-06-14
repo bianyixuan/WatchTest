@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
@@ -31,6 +31,12 @@
                                 <segue destination="Wxy-ba-U0F" kind="push" id="71o-xT-y8E"/>
                             </connections>
                         </button>
+                        <button width="1" height="30.5" alignment="left" title="接收数据" id="WNo-fx-a76">
+                            <color key="backgroundColor" red="0.92156862750000001" green="0.2470588235" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="fiJ-pd-CZO" kind="push" id="yZh-rL-r0P"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
                         <outlet property="labelTest" destination="z3E-op-MNj" id="JfW-jc-dEJ"/>
@@ -38,6 +44,20 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="277" y="188"/>
+        </scene>
+        <!--Show What Controller-->
+        <scene sceneID="CSu-V3-BPi">
+            <objects>
+                <controller id="fiJ-pd-CZO" customClass="ShowWhatController">
+                    <items>
+                        <label width="134.5" height="47.5" alignment="left" text="显示手机输入的内容" id="li6-Wo-1Ef"/>
+                    </items>
+                    <connections>
+                        <outlet property="label_Show" destination="li6-Wo-1Ef" id="cRR-bX-bRq"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="287" y="603"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
