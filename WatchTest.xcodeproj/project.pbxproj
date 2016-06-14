@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BC5DBE1D1007C8008F4256 /* ShowWhatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC5DBD1D1007C8008F4256 /* ShowWhatController.m */; };
 		9CAFBE0B1CDB5752000A9342 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAFBE0A1CDB5752000A9342 /* AnimationViewController.m */; };
 		D3DB6B271CD1FD0E00A54F38 /* UserListInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB6B261CD1FD0E00A54F38 /* UserListInterfaceController.m */; };
 		D3F6C6CF1CD1E7C000CD37E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F6C6CE1CD1E7C000CD37E7 /* main.m */; };
@@ -86,6 +87,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04BC5DBC1D1007C8008F4256 /* ShowWhatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowWhatController.h; sourceTree = "<group>"; };
+		04BC5DBD1D1007C8008F4256 /* ShowWhatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowWhatController.m; sourceTree = "<group>"; };
 		9CAFBE091CDB5752000A9342 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
 		9CAFBE0A1CDB5752000A9342 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		D3DB6B251CD1FD0E00A54F38 /* UserListInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListInterfaceController.h; sourceTree = "<group>"; };
@@ -239,6 +242,8 @@
 			children = (
 				D3F9C1B41CD2144400B624A5 /* MainRowType.h */,
 				D3F9C1B51CD2144400B624A5 /* MainRowType.m */,
+				04BC5DBC1D1007C8008F4256 /* ShowWhatController.h */,
+				04BC5DBD1D1007C8008F4256 /* ShowWhatController.m */,
 				D3F6C7151CD1E82C00CD37E7 /* InterfaceController.h */,
 				D3F6C7161CD1E82C00CD37E7 /* InterfaceController.m */,
 				D3F6C7181CD1E82C00CD37E7 /* ExtensionDelegate.h */,
@@ -485,6 +490,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BC5DBE1D1007C8008F4256 /* ShowWhatController.m in Sources */,
 				D3DB6B271CD1FD0E00A54F38 /* UserListInterfaceController.m in Sources */,
 				D3F6C71A1CD1E82C00CD37E7 /* ExtensionDelegate.m in Sources */,
 				9CAFBE0B1CDB5752000A9342 /* AnimationViewController.m in Sources */,
